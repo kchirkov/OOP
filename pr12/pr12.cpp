@@ -17,7 +17,8 @@ int main()
 	cout << "Raznost = " << r << endl;
 	cout << "Umnozhenie = " << u << endl;
 	cout << "Delenie = " << d << endl;
-
+	
+	system("pause");
 	return 0;
 }
 
