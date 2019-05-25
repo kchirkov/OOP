@@ -7,7 +7,7 @@ using namespace std;
 
 void bubblesort(int n, int *mass)
 {
-	for (int i = 1; i < n; ++i)
+	for (int i = 1; i < n; i++)
 	{
 		for (int r = 0; r < n - i; r++)
 		{
@@ -24,13 +24,13 @@ void bubblesort(int n, int *mass)
 
 void bubblesort(int n, double *mass)
 {
-	for (int i = 1; i < n; ++i)
+	for (int i = 1; i < n; i++)
 	{
 		for (int r = 0; r < n - i; r++)
 		{
 			if (mass[r] < mass[r + 1])
 			{
-				int temp = mass[r];
+				double temp = mass[r];
 				mass[r] = mass[r + 1];
 				mass[r + 1] = temp;
 			}
@@ -51,7 +51,7 @@ int main()
 
 	double* mass;
 	mass = new double[n];
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i < n; i++)
 	{
 		cout << i + 1 << " element: ";
 		cin >> mass[i];
@@ -59,7 +59,7 @@ int main()
 
 
 	cout << "Array: ";
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i < n; i++)
 	{
 		cout << mass[i] << " ";
 	}
@@ -67,7 +67,7 @@ int main()
 
 	bubblesort(n, mass);
 	cout << "Sorted array: ";
-	for (int i = 0; i < n; ++i)
+	for (int i = 0; i < n; i++)
 	{
 		cout << mass[i] << " ";
 	}
