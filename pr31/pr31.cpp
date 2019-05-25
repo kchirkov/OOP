@@ -1,13 +1,14 @@
 ﻿
 #include "pch.h"
 #include <iostream>
+#include <string>
 using namespace std;
 
 class kniga {
 
-	char janr[20];
-	char avtor[30];
-	char nazvanie[40];
+	string janr;
+	string avtor;
+	string nazvanie;
 	int god_izdania;
 	int cena;
 
@@ -31,8 +32,8 @@ public:
 		cout << "Janr:" << janr << endl;
 		cout << "Avtor:" << avtor << endl;
 		cout << "Nazvanie:" << nazvanie << endl;
-		cout << "GOd vipyska:" << god_izdania << endl;
-		cout << "Cena:" << cena << endl;
+		cout << "God vipuska:" << god_izdania << endl;
+		cout << "Price:" << cena << endl;
 	}
 
 
