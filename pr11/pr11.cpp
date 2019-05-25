@@ -10,6 +10,7 @@ int main()
 	cout << "Enter your name!" << endl;
 	cin.getline(name, 19);
 	cout << "Hello, " << name << "!" << endl;
-
+	
+	system("pause");
 	return 0;
 }
