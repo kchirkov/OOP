@@ -31,5 +31,6 @@ int main()
 	double s2 = sum(1.1, 2.2);
 	double r2 = raz(2.2, 1.1);
 	cout <<"sum and raz int chisel"<<endl<< s1 << endl << r1 << endl<<"sum and raz double chisel "<<endl << s2 << endl << r2 << endl;
+	system("pause");
 	return 0;
 }
