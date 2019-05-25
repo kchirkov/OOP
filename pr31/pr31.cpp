@@ -17,11 +17,11 @@ public:
 	void set()
 	{
 		cout << "Vvedite janr:";
-		cin >> janr;
+		getline(cin, janr);
 		cout << "Vvedite avtora:";
-		cin >> avtor;
+		getline(cin, avtor);
 		cout << "Vvedite nazvanie:";
-		cin >> nazvanie;
+		getline(cin, nazvanie);
 		cout << "Vvedite god vipyska:";
 		cin >> god_izdania;
 		cout << "Vvedite ceny:";
